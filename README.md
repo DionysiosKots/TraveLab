@@ -1,2 +1,2 @@
 # TraveLab
-Οnline platform where travel businesses upload holiday packages from travel agencies that website visitors can book
+ONLINE PLATFORM WHERE TOURIST AGENCIES UPLOAD HOLIDAY PACKAGES AND CUSTOMERS CAN BOOK THEM
