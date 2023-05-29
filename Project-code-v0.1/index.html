@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>All Inclusive Holidays Packages - Search & Book</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Search</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Login</a></li>
+				<li><a href="#">Register</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="search-box">
+			<h1>Search for your next adventure</h1>
+			<form action="#" method="GET">
+				<label for="destination">Destination:</label>
+				<input type="text" name="destination" id="destination" required>
+
+				<label for="departure">Departure:</label>
+				<input type="text" name="departure" id="departure" required>
+
+				<label for="activity">Type of Activity:</label>
+				<select name="activity" id="activity" required>
+					<option value="">Select an activity type</option>
+					<option value="all-inclusive">All Inclusive Holidays Packages</option>
+					<option value="guided-tour">Guided Tour</option>
+					<option value="one-day-trip">One Day Trip</option>
+				</select>
+
+				<label for="departure-date">Departure Date:</label>
+				<input type="date" name="departure-date" id="departure-date" required>
+
+				<label for="arrival-date">Arrival Date:</label>
+				<input type="date" name="arrival-date" id="arrival-date" required>
+
+				<button type="submit">Search</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 All Inclusive Holidays Packages. All rights reserved.</p>
+	</footer>
+</body>
+</html>
